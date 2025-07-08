@@ -97,8 +97,7 @@ git branch
 
 **Mac Terminal:**
 ```bash
-git fetch origin
-git status
+git fetch origin && git status
 ```
 **Expected Output:**
 ```
@@ -231,7 +230,7 @@ git add .
 git commit -m "Session [DATE]: [What you worked on]
 
 - Added/modified: [specific files]
-- Completed: [assignments/exercises]
+- Completed: [assignments/exercises]  
 - Notes: [any important notes]"
 ```
 **Expected Output:**
@@ -268,29 +267,6 @@ git status
 On branch main
 Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
-```
-
-### **Step 3: (Optional) Clean Exit**
-
-**Cursor Terminal OR Mac Terminal:**
-```bash
-deactivate
-```
-**Expected Output:**
-```
-ashapondicherry@MacBookPro AIE_Bootcamp_VC %
-(note: (activate) disappears from prompt)
-```
-
-**Cursor Terminal OR Mac Terminal:**
-```bash
-git log --oneline -3
-```
-**Expected Output:**
-```
-n2o3p4q (HEAD -> main, origin/main) Session Jan 2: Completed RAG assignment
-j8k9l0m Save work before sync
-f7g8h9i Merge upstream/main: Add Sessions 01-02
 ```
 
 ---
@@ -425,7 +401,7 @@ index 1234567..abcdefg 100644
 
 **If Cursor can't find Python packages:**
 1. Check bottom status bar shows: `Python 3.13.3 ('activate': venv)`
-2. If not, press `Cmd+Shift+P` → "Python: Select Interpreter"
+2. If not, press `Cmd+Shift+P` → "Python: Select Interpreter"  
 3. Select: `/Users/ashapondicherry/Desktop/VDU/_Projects/AIE_Bootcamp/AIE_Bootcamp_VC/activate/bin/python`
 
 **If Cursor terminal doesn't show (activate):**

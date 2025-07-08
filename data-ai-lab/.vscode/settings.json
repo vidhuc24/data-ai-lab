@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "/opt/anaconda3/envs/data-ai-lab/bin/python",
+    "terminal.integrated.env.osx": {
+      "CONDA_DEFAULT_ENV": "data-ai-lab"
+    }
+  }
+  
